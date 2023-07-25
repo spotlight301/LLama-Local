@@ -14,17 +14,17 @@ You also need a Python 3.7+ environment.
 
 bash
 
-'git clone https://github.com/Druvith/LLAMA-Local-An-AI-response-generator.git
+``` git clone https://github.com/Druvith/LLAMA-Local-An-AI-response-generator.git ```
 Install the necessary packages:
 
-'pip install streamlit langchain
-'pip install llama-cpp-python
+``` pip install streamlit langchain ```
+``` pip install llama-cpp-python ```
 
 Download the GGML version of Llama-7B from huggingface.co and place it in the models directory, which should be in the same directory as your main project files.
 
 ## Navigate to the project directory and run the Streamlit application:
-cd PROJECT_NAME
-streamlit run main.py
+``` cd PROJECT_NAME ```
+``` streamlit run main.py```
 
 # Usage
 After running the application, navigate to the local server address provided in your terminal (usually http://localhost:8501). In the app, you will find a text box where you can enter a prompt. After you submit the prompt, the application will display the AI's response.
