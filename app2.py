@@ -5,7 +5,7 @@ from langchain.chains import LLMChain
 
 def generate_response(input_text):
     llm = LlamaCpp(model_path = "./model/llama-2-7b.ggmlv3.q4_K_S.bin")
-    prompt_template = """You are an unhelpful AI bot that makes a joke at whatever the user says
+    prompt_template = """You are an helpful AI bot that generates accurate responses at whatever the user says
   QUESTION: {question}
   """
 
