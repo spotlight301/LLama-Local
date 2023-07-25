@@ -19,9 +19,9 @@ git clone https://github.com/Druvith/LLAMA-Local-An-AI-response-generator.git
  ```
 Install the necessary packages:
 
-`
+```
 pip install streamlit langchain
-`
+```
 ``` 
 pip install llama-cpp-python
 ```
