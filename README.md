@@ -33,7 +33,7 @@ Download the GGML version of Llama-7B from huggingface.co and place it in the mo
 cd PROJECT_NAME
  ```
 ```
-streamlit run main.py
+streamlit run app2.py
 ```
 
 # Usage
